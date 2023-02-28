@@ -14,9 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<!-- <body>
+<body>
   <div align="center">
-    <h1 color=#F7CC18FF> Hi there, I'm Saad Fareed👋<a href="#"></h1>
+    <h1 color=#F7CC18FF> Hi there, I'm Mateeh Ullah👋<a href="#"></h1>
   </div>
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=sans-serif+fonts&weight=800&size=24&duration=2000&pause=1000&color=F7CC18&center=true&vCenter=true&width=435&lines=Full+Stack+Developer+;React+Developer;MERN+Stack+Developer" alt="Typing SVG" /></a>
@@ -24,17 +24,13 @@ Here are some ideas to get you started:
  ## Bootcamp alert
 - [MLSA UET Job Hunting Bootcamp](https://github.com/saadfareed/MLSA-Job-Hunting-bootcamp) will started soon.
 <img align="right" alt="" src="fresh.jpg" width="25%" />
-	
-## My Python Development Course 
-- [Youtube channel for Tips](https://www.youtube.com/channel/UCSy4EMgtOa5rajZzmXOdTTQ)
 
-### I'm a Python Developer, Teacher and Researcher!
+### I'm a MERN Developer!
 
 - 🔭 I’m currently working as Backend Engineer.
 - 🌱 I’m currently expanding my knowledge in MERN Stack.
 - 👯 I’m looking to collaborate with other content creators and developers.
-- 📢 Love to teach and inspire students. Taught over more then 600 students.
-- 🥅 2022-23 Goals: Contribute more to Open Source projects and Execute my Innovative ideas.
+- 🥅 2023-24 Goals: Contribute more to Open Source projects and Execute my Innovative ideas.
 - 💎 If you are a Tech boy/girl let's get connected
 
 <h2>Tech Stack</h2>
@@ -165,4 +161,4 @@ Here are some ideas to get you started:
 <p align="center"> 
   Views<br>
   <img src="https://profile-counter.glitch.me/saadfareed/count.svg" />
-</p> -->
+</p>
