@@ -21,11 +21,9 @@ Here are some ideas to get you started:
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=sans-serif+fonts&weight=800&size=24&duration=2000&pause=1000&color=F7CC18&center=true&vCenter=true&width=435&lines=Full+Stack+Developer+;React+Developer;MERN+Stack+Developer" alt="Typing SVG" /></a>
 
- ## Bootcamp alert
-- [MLSA UET Job Hunting Bootcamp](https://github.com/saadfareed/MLSA-Job-Hunting-bootcamp) will started soon.
 <img align="right" alt="" src="fresh.jpg" width="25%" />
 
-### I'm a MERN Developer!
+## I'm a MERN Developer!
 
 - 🔭 I’m currently working as Backend Engineer.
 - 🌱 I’m currently expanding my knowledge in MERN Stack.
