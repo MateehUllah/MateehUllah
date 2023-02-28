@@ -109,6 +109,7 @@ Here are some ideas to get you started:
         <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" width="90">
     </td>
 </tr>
+	  </table>
 
 <p align="center"> 
   Views<br>
