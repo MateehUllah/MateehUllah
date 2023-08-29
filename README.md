@@ -23,10 +23,10 @@ Here are some ideas to get you started:
 
 <img align="right" alt="" src="fresh.jpg" width="25%" />
 
-## I'm a MERN Developer!
+## I'm a Full Stack Django Developer!
 
 - 🔭 I’m currently working as Backend Engineer.
-- 🌱 I’m currently expanding my knowledge in MERN Stack.
+- 🌱 I’m currently expanding my knowledge in Django Stack.
 - 👯 I’m looking to collaborate with other content creators and developers.
 - 🥅 2023-24 Goals: Contribute more to Open Source projects and Execute my Innovative ideas.
 - 💎 If you are a Tech boy/girl let's get connected
