@@ -9,7 +9,7 @@ From backend APIs to cloud deployments, from training ML models to designing mob
 ---
 
 ## 🚀 What I Do
-- 🛠 **Engineering** – Backend (Node.js, Django, Spring Boot) & Frontend (React, Next.js, Tailwind)  
+- 🛠 **Engineering** – Backend (Node.js, Django, Flask, FastAPI, Hypermea) & Frontend (React, Next.js, Vue.js)  
 - 🤖 **AI/ML** – LLM integration, Deep Learning, and applied ML solutions  
 - 🔎 **RAG Frameworks** – Retrieval-Augmented Generation pipelines, embeddings, and vector databases  
 - ⚙️ **Intelligent Automation** – Workflow automation, agent-based systems, and AI-driven business processes  
