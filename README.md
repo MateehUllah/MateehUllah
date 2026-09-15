@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mateeh-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://mateehullah.github.io/"><img src="https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="https://github.com/MateehUllah"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="https://github.com/pulls?q=is%3Apr+author%3AMateehUllah"><img src="https://img.shields.io/badge/Open_Source-0366D6?style=for-the-badge&logo=github&logoColor=white" alt="Open-source pull requests"/></a>
 </p>
