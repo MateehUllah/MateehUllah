@@ -69,6 +69,18 @@ I build reliable AI products, backend services, data pipelines, and modern web a
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </p>
 
+## Contribution trail
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MateehUllah/MateehUllah/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MateehUllah/MateehUllah/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated contribution snake" src="https://raw.githubusercontent.com/MateehUllah/MateehUllah/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+The animation follows my real GitHub contribution history and refreshes automatically.
+
 ## Open source
 
 I focus on useful contributions to **AI infrastructure, developer tools, Python and backend projects, and data engineering**.
