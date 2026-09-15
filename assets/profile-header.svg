@@ -1,0 +1,32 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#0B7285"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="210" y1="84" x2="980" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="55" r="190" fill="#38BDF8" fill-opacity="0.08"/>
+  <circle cx="90" cy="300" r="170" fill="#2DD4BF" fill-opacity="0.08"/>
+  <path d="M145 236C325 134 493 282 677 169C831 74 949 108 1060 74" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.35"/>
+  <circle cx="145" cy="236" r="7" fill="#38BDF8"/>
+  <circle cx="677" cy="169" r="7" fill="#2DD4BF"/>
+  <circle cx="1060" cy="74" r="7" fill="#38BDF8"/>
+  <rect x="78" y="63" width="10" height="128" rx="5" fill="url(#accent)"/>
+  <text x="116" y="126" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Mateeh Ullah</text>
+  <text x="118" y="174" fill="#BAE6FD" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="500">Backend &amp; AI Engineer</text>
+  <text x="118" y="216" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="19">Reliable AI systems • Scalable APIs • Data platforms</text>
+  <g transform="translate(778 218)">
+    <rect width="305" height="48" rx="24" fill="#E0F2FE" fill-opacity="0.10" stroke="#7DD3FC" stroke-opacity="0.35"/>
+    <circle cx="27" cy="24" r="6" fill="#34D399"/>
+    <text x="45" y="31" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="17">Building useful systems</text>
+  </g>
+</svg>
