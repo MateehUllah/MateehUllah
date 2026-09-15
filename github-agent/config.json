@@ -1,0 +1,29 @@
+{
+  "github_user": "MateehUllah",
+  "max_candidates": 15,
+  "max_new_prs_per_day": 1,
+  "require_human_approval_before_pr": true,
+  "searches": [
+    "is:issue is:open archived:false label:\"help wanted\" language:python",
+    "is:issue is:open archived:false label:\"good first issue\" language:python",
+    "is:issue is:open archived:false label:\"help wanted\" language:typescript"
+  ],
+  "preferred_terms": [
+    "llm",
+    "rag",
+    "ai",
+    "fastapi",
+    "api",
+    "data",
+    "etl",
+    "test",
+    "bug"
+  ],
+  "blocked_terms": [
+    "typo",
+    "whitespace",
+    "spelling only",
+    "generated readme"
+  ],
+  "minimum_score": 4
+}
