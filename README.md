@@ -3,14 +3,20 @@
 </p>
 
 <p align="center">
-  <a href="https://mateehullah.github.io/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/mateeh-ullah/">LinkedIn</a> ·
-  <a href="https://github.com/pulls?q=is%3Apr+author%3AMateehUllah">Pull requests</a>
+  <a href="https://mateehullah.github.io/"><img src="https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mateeh-ullah/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3AMateehUllah"><img src="https://img.shields.io/badge/Open_Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Pull requests" /></a>
 </p>
 
 ## About
 
 I work on Python backend applications and AI-related projects, and I'm learning through contributions to open-source projects. My interests include APIs, developer tooling, testing, and machine learning.
+
+## Technologies I work with
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,django,postgres,redis,docker,git,github,githubactions,linux&perline=10" alt="Python, FastAPI, Django, PostgreSQL, Redis, Docker, Git, GitHub, GitHub Actions and Linux" />
+</p>
 
 ## Projects
 
@@ -31,9 +37,19 @@ A selection of pull requests I've opened. Check each PR for its current review a
 
 [All authored pull requests](https://github.com/pulls?q=is%3Apr+author%3AMateehUllah)
 
-## Git pulse
+## Git Pulse
 
-Activity links for a transparent view of ongoing work (not a measure of code quality):
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MateehUllah&show_icons=true&hide_rank=true&include_all_commits=false&hide_border=true&theme=transparent" height="165" alt="GitHub activity statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MateehUllah&layout=compact&hide_border=true&theme=transparent" height="165" alt="Languages in public GitHub repositories" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=MateehUllah&theme=transparent&hide_border=true" alt="GitHub contribution streak" />
+</p>
+
+These third-party cards summarize public GitHub activity; they are not measures of engineering skill. If a card service is unavailable, the links below remain accessible.
+
 
 - [GitHub contributions](https://github.com/MateehUllah?tab=overview)
 - [Pull requests](https://github.com/pulls?q=is%3Apr+author%3AMateehUllah)
