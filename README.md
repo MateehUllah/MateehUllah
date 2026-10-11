@@ -48,14 +48,6 @@ A selection of pull requests I've opened. Check each PR for its current review a
   <img src="https://streak-stats.demolab.com?user=MateehUllah&theme=transparent&hide_border=true" alt="GitHub contribution streak" />
 </p>
 
-These third-party cards summarize public GitHub activity; they are not measures of engineering skill. If a card service is unavailable, the links below remain accessible.
-
-
-- [GitHub contributions](https://github.com/MateehUllah?tab=overview)
-- [Pull requests](https://github.com/pulls?q=is%3Apr+author%3AMateehUllah)
-- [Issues](https://github.com/issues?q=is%3Aissue+author%3AMateehUllah)
-- [GHFind activity breakdown](https://ghfind.com/en/u/MateehUllah)
-
 ## Contribution trail
 
 <p align="center">
