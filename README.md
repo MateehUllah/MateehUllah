@@ -10,7 +10,13 @@
 
 ## About
 
-I work on Python backend applications and AI-related projects, and I'm learning through contributions to open-source projects. My interests include APIs, developer tooling, testing, and machine learning.
+I'm a developer focused on **Python backend engineering and applied AI**. I enjoy working on the parts of software that make an application useful and maintainable: APIs, data handling, integrations, debugging, and tests.
+
+My interests span **FastAPI and Django applications, relational databases, automation, and LLM-powered tools**. I also explore developer infrastructure and practical AI workflows, including retrieval-augmented generation (RAG), model evaluation, and integrations with external services.
+
+Alongside personal projects, I'm contributing to open-source repositories to improve my understanding of established codebases and collaborative development. My contributions include bug fixes, test improvements, and changes to developer tooling. I value clear problem descriptions, focused pull requests, and feedback from maintainers.
+
+**Currently exploring:** backend reliability, AI application development, testing practices, and useful contributions to Python and developer-tooling projects.
 
 ## Technologies I work with
 
