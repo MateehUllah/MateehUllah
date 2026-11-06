@@ -2,6 +2,34 @@
 
 Reproduced bug reports in open-source Python projects. This log was first prepared on November 16, 2026 and updated on November 18, 2026 (Asia/Karachi).
 
+## November 14, 2026 — boltons
+
+Ten reports were published in the BSD-licensed boltons project on November 14, 2026 (Asia/Karachi). This earlier batch is recorded here retrospectively; statuses were checked on November 18, 2026.
+
+| Project | Report | Status on November 18 |
+| --- | --- | --- |
+| `mahmoud/boltons` | [#768: statsutils.mean rejects finite iterators accepted by Stats and median](https://github.com/mahmoud/boltons/issues/768) | Open |
+| `mahmoud/boltons` | [#769: median_abs_dev reports zero dispersion for nearby large integers](https://github.com/mahmoud/boltons/issues/769) | Open |
+| `mahmoud/boltons` | [#770: kurtosis ignores the configured default for constant samples](https://github.com/mahmoud/boltons/issues/770) | Open |
+| `mahmoud/boltons` | [#771: SpooledStringIO overwrites corrupt UTF-8 when character widths change](https://github.com/mahmoud/boltons/issues/771) | Open |
+| `mahmoud/boltons` | [#772: ContextualCallpoint.to_dict crashes on empty context and misnumbers lines](https://github.com/mahmoud/boltons/issues/772) | Open |
+| `mahmoud/boltons` | [#773: ParsedException.to_string crashes for successfully parsed SyntaxError output](https://github.com/mahmoud/boltons/issues/773) | Open |
+| `mahmoud/boltons` | [#774: reverse_iter_lines splits UTF-16/UTF-32 text inside encoded code units](https://github.com/mahmoud/boltons/issues/774) | Open |
+| `mahmoud/boltons` | [#775: URL.from_parts loses IPv6 address-family metadata and emits invalid authorities](https://github.com/mahmoud/boltons/issues/775) | Open |
+| `mahmoud/boltons` | [#776: URL.navigate inherits the base query for an explicitly empty query reference](https://github.com/mahmoud/boltons/issues/776) | Open |
+| `mahmoud/boltons` | [#777: deprecate_module_member disconnects module attributes from function globals](https://github.com/mahmoud/boltons/issues/777) | Open |
+
+### Reproduction evidence
+
+- Source: [`d31d821d56c8f7756af9c30a864077f2e5855321`](https://github.com/mahmoud/boltons/commit/d31d821d56c8f7756af9c30a864077f2e5855321).
+- Original environment: macOS and CPython 3.12.13.
+- Each report contains a runnable reproduction, expected and actual behavior, and links to the tested source. The original reproductions ran against unchanged library code.
+- OpenAI Codex inspected the source, executed the reproductions, and drafted the reports at the repository owner's request.
+
+### Record and commit dates
+
+This retrospective entry and its commit were prepared on November 18, 2026. The owner requested an author date of November 6, 2026; the committer timestamp preserves the actual creation time. The report date above is the actual issue creation date in Asia/Karachi.
+
 ## November 16, 2026 — fnc and pydash
 
 Ten reports in the MIT-licensed fnc and pydash projects.
