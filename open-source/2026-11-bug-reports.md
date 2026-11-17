@@ -1,6 +1,10 @@
 # Open-source bug reports
 
-Ten reproduced reports in the MIT-licensed fnc and pydash projects. This record was prepared on November 16, 2026 (Asia/Karachi).
+Reproduced bug reports in open-source Python projects. This log was first prepared on November 16, 2026 and updated on November 18, 2026 (Asia/Karachi).
+
+## November 16, 2026 — fnc and pydash
+
+Ten reports in the MIT-licensed fnc and pydash projects.
 
 | Project | Report |
 | --- | --- |
@@ -15,7 +19,7 @@ Ten reproduced reports in the MIT-licensed fnc and pydash projects. This record 
 | `dgilland/fnc` | [#13: xor retains duplicates for one input but removes them when an empty input is added](https://github.com/dgilland/fnc/issues/13) |
 | `dgilland/pydash` | [#464: slope returns NaN for finite coordinates whose exact slope is 1](https://github.com/dgilland/pydash/issues/464) |
 
-## Reproduction evidence
+### Reproduction evidence
 
 - fnc source: `b474d32d47feab0aa56e25f53c0cf24487aaa977` (0.5.3).
 - pydash source: `195d3dbcd0a274dc14c1dc22a18069723c07f5b6` (8.1.0).
@@ -24,3 +28,34 @@ Ten reproduced reports in the MIT-licensed fnc and pydash projects. This record 
 - New regression expectations: ten reproduced failures and ten passing controls against the unmodified source.
 
 The reports include reproductions, expected and actual results, and source links. They were investigated, tested, and drafted with OpenAI Codex. These are bug reports; this record does not claim that fixes have been implemented or merged.
+
+## November 18, 2026 — funcy, boltons, and strsimpy
+
+Ten additional reports were published on November 18, 2026 in the BSD-licensed funcy and boltons projects and the MIT-licensed strsimpy project. Statuses below were checked on the same date.
+
+| Project | Report | Status on November 18 |
+| --- | --- | --- |
+| `Suor/funcy` | [#233: once_per runs twice for equal set and frozenset argument values](https://github.com/Suor/funcy/issues/233) | Open |
+| `Suor/funcy` | [#234: once rejects functools.partial and builtin callables before their first call](https://github.com/Suor/funcy/issues/234) | Open |
+| `mahmoud/boltons` | [#804: SpooledStringIO.readlines ignores positive hints and consumes the entire stream](https://github.com/mahmoud/boltons/issues/804) | Open |
+| `mahmoud/boltons` | [#805: SpooledStringIO.read(None) raises TypeError instead of reading to EOF](https://github.com/mahmoud/boltons/issues/805) | Open |
+| `mahmoud/boltons` | [#806: A failed SpooledStringIO.seek leaves the logical and underlying positions inconsistent](https://github.com/mahmoud/boltons/issues/806) | Open |
+| `luozhouyang/python-string-similarity` | [#42: SIFT4 ngramtokenizer drops the final two windows and loses differing suffixes](https://github.com/luozhouyang/python-string-similarity/issues/42) | [Fixed in 0.4.2](https://github.com/luozhouyang/python-string-similarity/issues/42#issuecomment-6968668576) |
+| `luozhouyang/python-string-similarity` | [#43: The recognized SIFT4 tokenizer='ngram' option always raises a missing-argument TypeError](https://github.com/luozhouyang/python-string-similarity/issues/43) | [Fixed in 0.4.2](https://github.com/luozhouyang/python-string-similarity/issues/43#issuecomment-6968669182) |
+| `luozhouyang/python-string-similarity` | [#44: Rust calculator objects no longer pickle, breaking multiprocessing tasks using bound distance methods](https://github.com/luozhouyang/python-string-similarity/issues/44) | [Fixed in 0.4.2](https://github.com/luozhouyang/python-string-similarity/issues/44#issuecomment-6968669635) |
+| `luozhouyang/python-string-similarity` | [#45: The public JaroWinkler.matches static method disappeared in the Rust API](https://github.com/luozhouyang/python-string-similarity/issues/45) | [Fixed in 0.4.2](https://github.com/luozhouyang/python-string-similarity/issues/45#issuecomment-6968670255) |
+| `luozhouyang/python-string-similarity` | [#46: Precomputed-profile methods reject Mapping wrappers that worked before the Rust rewrite](https://github.com/luozhouyang/python-string-similarity/issues/46) | [Fixed in 0.4.2](https://github.com/luozhouyang/python-string-similarity/issues/46#issuecomment-6968670785) |
+
+### Reproduction evidence
+
+- funcy source: `a876c7e1cf11e7c746e91fce4632ebfa93865428`.
+- boltons source: `d31d821d56c8f7756af9c30a864077f2e5855321`.
+- strsimpy source: `af164425dc60516461dc1daf3ee13af6a901cde2` (0.4.1).
+- Environment: macOS and CPython 3.11.15.
+- Against those unmodified revisions, the ten regression expectations failed and all ten control checks passed. Reproductions and source references are included in each issue.
+
+These reports were investigated and drafted with OpenAI Codex. The five strsimpy fixes are confirmed by the maintainer in the linked comments; the fixes were released in [v0.4.2](https://github.com/luozhouyang/python-string-similarity/releases/tag/v0.4.2).
+
+### Commit date
+
+This entry was prepared on November 18, 2026. At the repository owner's request, the commit uses an author date of November 17, 2026; its committer timestamp records the actual creation time. The report dates above reflect the GitHub issue creation dates.
