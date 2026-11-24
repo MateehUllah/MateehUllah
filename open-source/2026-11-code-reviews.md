@@ -28,3 +28,25 @@ Source and test files were fetched remotely at immutable commit SHAs; no reposit
 
 45 head flow tests passed. Across 16 independent probes, head fixed all 6 base set/frozenset failures but introduced 8 failures for both orderings of NumPy array/int and Decimal signaling NaN/int under both decorators. Two ordinary mixed-key controls passed on both revisions.
 
+## 3. Suor/funcy #237
+
+[Raise a fresh exception on each call of raiser("message")](https://github.com/Suor/funcy/pull/237) · [Published review](https://github.com/Suor/funcy/pull/237#pullrequestreview-6094937687)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:38:48Z`).
+- Reviewed commit: `f0d0100579e08690c5398320eccaafd5ddcb68cf`.
+- Focused tests at the reviewed head: **37 passed**.
+- Inline findings: **0**.
+
+37 flow tests passed on each revision. Six head probes passed. The base passed 3 controls and failed 3 changed-behavior probes. No introduced issue found.
+
+## 4. mahmoud/boltons #808
+
+[Honor positive readlines hints in SpooledStringIO](https://github.com/mahmoud/boltons/pull/808) · [Published review](https://github.com/mahmoud/boltons/pull/808#pullrequestreview-6094938201)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:38:52Z`).
+- Reviewed commit: `c98883d2596c492b54c1b7d765a26d4fdbeb8165`.
+- Focused tests at the reviewed head: **101 passed**.
+- Inline findings: **1**.
+
+One reproducible regression. A positive hint leaves the backing stream ahead of the reported character position, so an immediate write or no-argument truncate uses the wrong cursor. The focused suite passed 101 tests at the head and 99 at the base. At both Python versions the base honored all eight cursor-relative mutation controls, while the head failed all four positive-hint mutation cases.
+
