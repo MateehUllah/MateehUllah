@@ -50,3 +50,25 @@ Source and test files were fetched remotely at immutable commit SHAs; no reposit
 
 One reproducible regression. A positive hint leaves the backing stream ahead of the reported character position, so an immediate write or no-argument truncate uses the wrong cursor. The focused suite passed 101 tests at the head and 99 at the base. At both Python versions the base honored all eight cursor-relative mutation controls, while the head failed all four positive-hint mutation cases.
 
+## 5. mahmoud/boltons #809
+
+[Fix SpooledStringIO.read(None)](https://github.com/mahmoud/boltons/pull/809) · [Published review](https://github.com/mahmoud/boltons/pull/809#pullrequestreview-6094938692)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:38:58Z`).
+- Reviewed commit: `15670071f1b4759e55c7936e8e35289512b596dd`.
+- Focused tests at the reviewed head: **100 passed**.
+- Inline findings: **0**.
+
+No introduced finding in this change. The focused suite passed 100 tests at head and 99 at base. All 78 full-read cases per interpreter matched the oracle at head and raised TypeError at base. The explicit rollover between a line read and read(None) also matched at head and failed at base.
+
+## 6. mahmoud/boltons #810
+
+[Preserve text spool position after invalid seek offsets](https://github.com/mahmoud/boltons/pull/810) · [Published review](https://github.com/mahmoud/boltons/pull/810#pullrequestreview-6094939237)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:39:04Z`).
+- Reviewed commit: `813900009d6a9a4df33354ee4896414366e76ca7`.
+- Focused tests at the reviewed head: **101 passed**.
+- Inline findings: **0**.
+
+No introduced finding in this change. The focused suite passed 101 tests at head and 99 at base. Per interpreter, invalid offset atomicity cases improved from 30 of 72 matching to 72 of 72. Index-valued offsets preserve the implemented relative-seek semantics.
+
