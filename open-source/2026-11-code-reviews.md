@@ -72,3 +72,25 @@ No introduced finding in this change. The focused suite passed 100 tests at head
 
 No introduced finding in this change. The focused suite passed 101 tests at head and 99 at base. Per interpreter, invalid offset atomicity cases improved from 30 of 72 matching to 72 of 72. Index-valued offsets preserve the implemented relative-seek semantics.
 
+## 7. life4/textdistance #106
+
+[Fix byte prefix and postfix results](https://github.com/life4/textdistance/pull/106) · [Published review](https://github.com/life4/textdistance/pull/106#pullrequestreview-6094939714)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:39:09Z`).
+- Reviewed commit: `a4ac92e51cc9b51be4416128820886a203983354`.
+- Focused tests at the reviewed head: **184 passed**.
+- Inline findings: **0**.
+
+184 targeted tests passed. The independent slicing oracle passed all 7,248 head cases. The base raised 1,602 TypeErrors for nonempty byte results. No newly introduced defect found.
+
+## 8. life4/textdistance #110
+
+[Return the best local Smith-Waterman alignment score](https://github.com/life4/textdistance/pull/110) · [Published review](https://github.com/life4/textdistance/pull/110#pullrequestreview-6094940185)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:39:15Z`).
+- Reviewed commit: `747107453d94a899e1939d3098e603a432fb1467`.
+- Focused tests at the reviewed head: **17 passed**.
+- Inline findings: **1**.
+
+17 targeted tests passed. Head matched all 4,805 independent raw-score cases, while base disagreed in 1,369. One actionable performance regression is anchored to the changed quick-answer guard for custom scorers with an empty operand.
+
