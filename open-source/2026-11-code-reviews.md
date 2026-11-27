@@ -94,3 +94,14 @@ No introduced finding in this change. The focused suite passed 101 tests at head
 
 17 targeted tests passed. Head matched all 4,805 independent raw-score cases, while base disagreed in 1,369. One actionable performance regression is anchored to the changed quick-answer guard for custom scorers with an empty operand.
 
+## 9. life4/textdistance #111
+
+[Honor positive Editex match costs for identical inputs](https://github.com/life4/textdistance/pull/111) · [Published review](https://github.com/life4/textdistance/pull/111#pullrequestreview-6094941059)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:39:23Z`).
+- Reviewed commit: `ccc8ac1c9af7dc279ec01884e30e4493fc6e3233`.
+- Focused tests at the reviewed head: **214 passed**.
+- Inline findings: **1**.
+
+214 targeted tests passed. Head matched all 36,864 independent path scores per backend with both NumPy and Python fallback. Base disagreed on 564 exact positive-cost inputs per backend. One actionable quadratic time and storage regression is anchored to the changed quick-answer guard.
+
