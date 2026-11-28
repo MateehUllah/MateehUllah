@@ -105,3 +105,14 @@ No introduced finding in this change. The focused suite passed 101 tests at head
 
 214 targeted tests passed. Head matched all 36,864 independent path scores per backend with both NumPy and Python fallback. Base disagreed on 564 exact positive-cost inputs per backend. One actionable quadratic time and storage regression is anchored to the changed quick-answer guard.
 
+## 10. life4/textdistance #123
+
+[fix: preserve sequence elements in LCSStr fallback matching](https://github.com/life4/textdistance/pull/123) · [Published review](https://github.com/life4/textdistance/pull/123#pullrequestreview-6094941631)
+
+- Reviewed and published: **November 28, 2026** (`2026-11-28T01:39:29Z`).
+- Reviewed commit: `f7e0a8d19ee94c6fc01bf2157ef605f571661d62`.
+- Focused tests at the reviewed head: **26 passed**.
+- Inline findings: **0**.
+
+26 head tests; 10,976 independent oracle comparisons; 40 threshold controls and 6 additional controls pass. Base with head regressions: 15 failed, 11 passed. No introduced issue found.
+

@@ -24,7 +24,7 @@ I build Python backends and AI applications, with a focus on reliable APIs, retr
 
 Merged contributions to [Open Library](https://github.com/internetarchive/openlibrary/pull/14224), [PySyft](https://github.com/OpenMined/PySyft/pull/9529), and [Kornia](https://github.com/kornia/kornia/pull/5366).
 
-[Explore my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AMateehUllah) &nbsp; · &nbsp; [Verified bug reports →](open-source/2026-11-bug-reports.md)
+[Explore my pull requests →](https://github.com/pulls?q=is%3Apr+author%3AMateehUllah) &nbsp; · &nbsp; [Verified bug reports →](open-source/2026-11-bug-reports.md) &nbsp; · &nbsp; [Code reviews →](open-source/2026-11-code-reviews.md)
 
 <br />
 <sub>Python &nbsp; / &nbsp; FastAPI &nbsp; / &nbsp; Django &nbsp; / &nbsp; PostgreSQL &nbsp; / &nbsp; Redis &nbsp; / &nbsp; Docker</sub>
